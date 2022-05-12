@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": "./packages",
+    "paths": {
+      "@web/*": ["./*/src"]
+    }
+  },
+  "include": ["packages/**/*.ts", "packages/**/*.tsx", "windi.config.ts"],
+  "exclude": ["packages/**/dist"]
+}

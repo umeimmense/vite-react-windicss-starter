@@ -1,0 +1,7 @@
+packages/vite/dist/
+packages/vite/temp/
+packages/*/CHANGELOG.md
+LICENSE.md
+.prettierignore
+pnpm-lock.yaml
+pnpm-workspace.yaml

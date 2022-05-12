@@ -1,0 +1,40 @@
+.able-header.ant-layout-header {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  color: #000;
+  padding: 0 16px;
+  border-bottom: 1px solid #e8ecf0;
+
+  &.ant-layout-header {
+    height: unset;
+  }
+
+  .able-header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+  }
+
+  .able-header-main-name {
+    margin-left: 12px;
+    font-size: 16px;
+    cursor: default;
+  }
+}
+
+.able-header-tabs .ant-tabs-nav {
+  margin: 0;
+  &::before {
+    border-bottom: none;
+  }
+}
+
+.able-header-collapse {
+  font-size: 16px;
+  transition: color 0.3s ease;
+  &:hover {
+    color: #108cee;
+  }
+}

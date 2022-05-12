@@ -1,0 +1,85 @@
+#main-sidebar {
+  width: 180px;
+  background: #1e1e28;
+  z-index: 9;
+  transition: width 0.3s;
+  color: #fff;
+  max-height: 100vh;
+  overflow-y: scroll;
+}
+@sidebar-bg: #0f1012;
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected,
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-active {
+  color: #fff;
+  background-color: #0f1012;
+}
+.ant-menu-dark.ant-menu-inline .ant-menu-item,
+.ant-menu-dark.ant-menu-inline .ant-menu-submenu-title {
+  margin: 0;
+}
+.ant-menu-dark .ant-menu-item,
+.ant-menu-submenu-title,
+.ant-menu-dark .ant-menu-item > span > a {
+  color: #fff;
+  font-size: 12px;
+}
+.ant-menu-dark.ant-menu-inline {
+  background: none;
+}
+.ant-menu-dark .ant-menu-submenu-active,
+.ant-layout-sider-trigger {
+  background-color: @sidebar-bg;
+}
+
+.ant-layout-sider-trigger {
+  height: 40px;
+  margin: 0;
+}
+.ant-layout-sider-collapsed {
+  width: 60px !important;
+  flex: 0 0 60px !important;
+  max-width: 60px !important;
+  min-width: 60px !important;
+}
+.ant-menu-inline-collapsed {
+  width: 60px !important;
+}
+.ant-menu-vertical .ant-menu-submenu-title {
+  margin: 0;
+}
+
+.ant-menu-inline-collapsed {
+  .ant-menu-item {
+    padding: 0 20px;
+  }
+  .ant-menu-submenu {
+    .ant-menu-submenu-title {
+      padding: 0 20px;
+    }
+  }
+}
+
+.ant-menu.ant-menu-dark,
+.ant-menu-dark .ant-menu-sub,
+.ant-menu.ant-menu-dark .ant-menu-sub {
+  background-color: #1e1e28;
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected,
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-active {
+  background-color: #2468f2;
+}
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #2468f2;
+}
+.ant-menu-dark .ant-menu-submenu-active .ant-layout-sider-trigger {
+  background-color: #2468f2;
+}
+
+.ant-menu-dark .ant-menu-item:hover,
+.ant-menu-dark .ant-menu-item-active,
+.ant-menu-dark .ant-menu-submenu-active,
+.ant-menu-dark .ant-menu-submenu-title:hover {
+  background-color: #2468f2;
+}
